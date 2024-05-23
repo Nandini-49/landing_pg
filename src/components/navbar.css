@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 50px;
+  padding-top: 10px;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 100px;
+  background-color: #c8edfd;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.text {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+
+}
+
+.navlinks {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlinks a {
+  text-decoration: none;
+  /* font-family: 'Arial'; */
+  color: #000000;
+  
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  gap: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+ 
+  gap: 10px;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
+}
+.btn {
+    cursor: pointer;
+    top: 56px;
+    left: 1076px;
+    width: 130px;
+    height: 48px;
+    padding: 0px 8px;
+    border: 1px solid rgba(0,0,0,0.14);
+    box-sizing: border-box;
+    border-radius: 18px;
+    background-color: rgba(2,2,2,0.05);
+    color: #030303;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 26px;
+    outline: none;  
+}
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}

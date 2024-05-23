@@ -1,0 +1,25 @@
+.card-section {
+  position: relative;
+  /* top: 1033px;
+  left: 80px; */
+  width: 262px;
+  height: 350px;
+  border-radius: 18px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-section img {
+  max-width: 265px;
+  min-height: 350px;
+  /* aspect-ratio: 0.75; */
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.card-section h3 {
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+}
