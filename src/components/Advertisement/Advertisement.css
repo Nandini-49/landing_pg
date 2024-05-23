@@ -1,0 +1,52 @@
+.add{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  height: 300px;
+  padding: 50px;
+}
+.add img {
+
+  z-index: -100;
+}
+.add h2{
+  max-width: 75%;
+  margin: 0;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 42px;
+
+}
+.add h4{
+  color: #ffffff;
+  font-size: 24px;
+  max-width: 45%;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 31px;
+}
+.btn1{
+  cursor: pointer;
+  position: relative;
+  top: 70px;
+  width: 289px;
+  height: 58px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background-color: #060000;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 26px;
+  outline: none;
+}

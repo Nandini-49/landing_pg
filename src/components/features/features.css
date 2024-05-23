@@ -16,7 +16,13 @@
   gap: 10px;
   justify-content: space-around;
 }
-.your-component{
+.ad-card-section-wrapper{
+  margin-top: 100px;
   display: flex;
+  flex-direction: row;
+  flex-basis: 1;
+  justify-content: space-evenly;
+
   
+
 }

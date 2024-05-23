@@ -22,27 +22,25 @@ const Features = () => {
       <Cards text="Real-time Analytics"
              image="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw2fHxBbmFseXRpY3N8ZW58MXx8fHwxNzE2MTEzNTc3fDA&ixlib=rb-4.0.3&q=80&w=1080"/>
     </div>
-    <div className='your-component'>
+    <div className='ad-card-section-wrapper'>
       <AdCards
+       logo={logo1}
         text="Unbeatable Price Performance"
-        logo={logo1}
-        description="We ensure the best deals, contact us if you find a lower price elsewhere!"
+       
+        des="We ensure the best deals, contact us if you find a lower price elsewhere!"
       />
       <AdCards
+      logo={logo2}
         text="Instant Refund Services"
-        logo={logo2}
-        description="Flight Cancellation Protection"
+        
+        des="Flight Cancellation Protection"
       />
       <AdCards
+       logo={logo3}
         text="Covid-19 Updates"
-        logo={logo3}
-        description="Stay informed about travel restrictions related to covid-19 and flight impacts."
+       
+        des="Stay informed about travel restrictions related to covid-19 and flight impacts."
       />
-
-
-      
-
-
     </div>
    
     </div>

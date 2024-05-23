@@ -1,0 +1,40 @@
+.ad-card-section h2{
+  margin:0;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.ad-card-section h4{
+  margin:0;
+  color: #d7cdcd;
+  font-size: 15px;
+  font-family: "Roboto";
+  line-height: 26px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img{
+  color: #030303;
+  fill: #030303;
+  font-size: 80px;
+  width: 80px;
+  height:80px;
+  margin-bottom: 5px;
+}
+
+.ad-card-section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+  
+  max-width: 30%;
+}
